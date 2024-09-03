@@ -3,9 +3,9 @@ trigger:
 
 variables:
   vmImageName: 'windows-latest'
-  azureSubscription: 'serviceconnection-arp'
-  appServiceName: 'func-arp-linux-westeu-001'
-  resourceGroupName: 'rg-arp-westeu-001'
+  azureSubscription: 'serviceconnection'
+  appServiceName: 'func-arp-linux-westeu-002'
+  resourceGroupName: 'rg'
   workingDirectory: '$(System.DefaultWorkingDirectory)/Src/AzureResourceProbes.Function'
 
 stages:
